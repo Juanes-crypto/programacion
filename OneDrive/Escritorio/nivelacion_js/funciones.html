@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    <a href="#" id="ejercicio1">Ejercicio 1</a>
+    <a href="#" id="ejercicio2">Ejercicio 2</a>
+    <a href="#" id="ejercicio3">Ejercicio 3</a>
+    <!-- Agrega más enlaces para cada ejercicio -->
+<script src="funciones/ejercicio1.js"></script>
+<script src="funciones/ejercicio2.js"></script>
+<script src="funciones/ejercicio3.js"></script>
+
+    <script>
+        document.getElementById("ejercicio1").addEventListener("click", function(event) {
+            event.preventDefault();
+            ejecutarEjercicio1(); // Llama a la función del ejercicio 1
+        });
+
+        document.getElementById("ejercicio2").addEventListener("click", function(event) {
+            event.preventDefault();
+            ejecutarEjercicio2(); // Llama a la función del ejercicio 2
+        });
+
+        document.getElementById("ejercicio3").addEventListener("click", function(event) {
+            event.preventDefault();
+            ejecutarEjercicio3(); // Llama a la función del ejercicio 3
+        });
+
+        // Agrega más event listeners para cada enlace
+    </script>
+</body>
+</html>
