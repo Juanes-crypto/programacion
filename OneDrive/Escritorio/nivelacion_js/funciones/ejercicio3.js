@@ -35,10 +35,13 @@ function ejecutarEjercicio3() {
     } else {
         saludo = "Hola, "; // Idioma por defecto
     }
-
     console.log(saludo + nombre + "!");
 }
 
 // Ejemplos de uso:
+
+let nombre = prompt("como te llamas?");
+let idioma = prompt("que idioma hablas?");
+let hora = Number(prompt("digite la hora: "));
 saludo(); //manda los valores opr defecto (en caso de no ser proporcioados)
 }

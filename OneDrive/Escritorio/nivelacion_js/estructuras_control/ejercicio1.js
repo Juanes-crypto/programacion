@@ -4,7 +4,7 @@
 // - Entre 13 y 65: 10€
 // - Mayores de 65: 7€
 function ejecutarEjercicio1() {
-    let edad = Number(prompt("digite su edad"));
+let edad = Number(prompt("digite su edad"));
 if (edad < 5) {
     console.log("por ser menor de 5 años, entras gratis");
 } else if (edad >= 5 && edad <= 12) {

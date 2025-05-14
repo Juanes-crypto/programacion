@@ -23,5 +23,5 @@ const saludar = (nombre) => "Hola " + nombre;
 const calcularArea = (base, altura) => {
     const area = base * altura;
     return area;
-};
+}
 }
